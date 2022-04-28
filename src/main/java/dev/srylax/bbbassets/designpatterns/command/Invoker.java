@@ -1,4 +1,4 @@
-package ch.bbbaden.bbbassets.designpatterns.command;
+package dev.srylax.bbbassets.designpatterns.command;
 
 import lombok.Data;
 

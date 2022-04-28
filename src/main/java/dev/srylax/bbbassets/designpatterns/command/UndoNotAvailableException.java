@@ -1,4 +1,4 @@
-package ch.bbbaden.bbbassets.designpatterns.command;
+package dev.srylax.bbbassets.designpatterns.command;
 
 public class UndoNotAvailableException extends RuntimeException {
     public UndoNotAvailableException() {
