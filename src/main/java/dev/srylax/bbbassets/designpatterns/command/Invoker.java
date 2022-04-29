@@ -6,7 +6,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 /**
- * @param <T>
+ * @param <T> The type of the event
  */
 @Data
 public class Invoker<T> {

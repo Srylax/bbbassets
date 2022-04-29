@@ -19,7 +19,9 @@ public abstract class Command<T> {
     public abstract T execute();
 
     /**
-     * Undoes the command.
+     * Undo the command.
+     *
+     * @return returns the target value. Use this if your target is a primitive Value or Immutable.
      */
     public T undo() {
         throw new UndoNotAvailableException();
