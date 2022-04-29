@@ -9,7 +9,7 @@ import java.util.Collection;
 /**
  * Dispatches events to registered listeners.
  *
- * @param <T> The type of the event.
+ * @param <T> the Event type including the Payload
  */
 public class EventDispatcher<T extends Event<?>> {
 
@@ -20,7 +20,6 @@ public class EventDispatcher<T extends Event<?>> {
 
     /**
      * Registers a listener.
-     *
      * @param listener The listener to register.
      */
     public void addEventListener(EventListener<T> listener) {
@@ -29,7 +28,6 @@ public class EventDispatcher<T extends Event<?>> {
 
     /**
      * Dispatches an event to all registered listeners.
-     *
      * @param event The event to dispatch.
      */
     public void fire(T event) {

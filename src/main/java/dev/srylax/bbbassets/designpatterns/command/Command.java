@@ -4,8 +4,9 @@ import lombok.Data;
 
 /**
  * The Command interface.
+ * <img src="doc-files/command.png" alt="Command Interface">
  *
- * @param <T> the type of the receiver
+ * @param <T> the type of the Receiver
  */
 @Data
 public abstract class Command<T> {
@@ -13,15 +14,13 @@ public abstract class Command<T> {
 
     /**
      * Executes the command.
-     *
-     * @return the result of the command. If possible edit the Object by reference
+     * @return The modified Receiver. Used if you want to modify an Immutable or primitive Receiver.
      */
     public abstract T execute();
 
     /**
      * Undo the command.
-     *
-     * @return returns the target value. Use this if your target is a primitive Value or Immutable.
+     * @return The modified Receiver. Used if you want to modify an Immutable or primitive Receiver.
      */
     public T undo() {
         throw new UndoNotAvailableException();
