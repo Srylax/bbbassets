@@ -6,9 +6,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * Context with a state.
+ * StateContext with a state.
  * <p>
- * <img src="doc-files/context.png" alt="Context">
+ * <img src="doc-files/context.png" alt="StateContext">
  *
  * @param <T> The type of the state.
  */
@@ -16,7 +16,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public abstract class Context<T extends State<?>> {
+public abstract class StateContext<T extends State<?>> {
     /**
      * Current state.
      */

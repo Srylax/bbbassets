@@ -10,7 +10,7 @@ class StateTest {
 
     @Test
     void testState() {
-        ConcreteContext context = new ConcreteContext();
+        ConcreteStateContext context = new ConcreteStateContext();
         context.setState(new ConcreteStateA());
         context.nextState();
         assertEquals(ConcreteStateB.class, context.getState().getClass());

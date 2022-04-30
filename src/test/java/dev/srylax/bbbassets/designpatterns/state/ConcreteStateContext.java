@@ -1,7 +1,7 @@
 package dev.srylax.bbbassets.designpatterns.state;
 
 @SuppressWarnings("JavaDoc")
-public class ConcreteContext extends Context<State<ConcreteContext>> {
+public class ConcreteStateContext extends StateContext<State<ConcreteStateContext>> {
     public void nextState() {
         this.state.handle(this);
     }

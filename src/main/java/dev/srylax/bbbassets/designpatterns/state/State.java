@@ -5,14 +5,14 @@ package dev.srylax.bbbassets.designpatterns.state;
  * <p>
  * <img src="doc-files/state.png" alt="State">
  *
- * @param <T> the type of the Context
+ * @param <T> the type of the StateContext
  */
-public interface State<T extends Context<?>> {
+public interface State<T extends StateContext<?>> {
 
     /**
-     * Changes the state of the Context
+     * Changes the state of the StateContext
      *
-     * @param context the Context
+     * @param context the StateContext
      */
     void handle(T context);
 }
