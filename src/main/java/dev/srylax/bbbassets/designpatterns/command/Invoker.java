@@ -17,7 +17,7 @@ public class Invoker<T> {
     /**
      * Command Stack. Is used as a history.
      */
-    final Deque<Command<T>> stack = new LinkedList<>();
+    protected final Deque<Command<T>> stack = new LinkedList<>();
 
     /**
      * Executes a given Command and stores it in the Stack.

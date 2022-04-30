@@ -1,8 +1,5 @@
 package dev.srylax.bbbassets.designpatterns.eventlistener;
 
-import dev.srylax.bbbassets.designpatterns.eventlistener.event.Event;
-import dev.srylax.bbbassets.designpatterns.eventlistener.listener.EventListener;
-
 import java.util.ArrayList;
 import java.util.Collection;
 
@@ -16,7 +13,7 @@ public class EventDispatcher<T extends Event<?>> {
     /**
      * The list of registered listeners.
      */
-    Collection<EventListener<T>> listeners = new ArrayList<>();
+    protected Collection<EventListener<T>> listeners = new ArrayList<>();
 
     /**
      * Registers a listener.

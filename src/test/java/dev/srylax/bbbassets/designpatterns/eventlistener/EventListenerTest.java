@@ -1,7 +1,5 @@
 package dev.srylax.bbbassets.designpatterns.eventlistener;
 
-import dev.srylax.bbbassets.designpatterns.eventlistener.event.Event;
-import dev.srylax.bbbassets.designpatterns.eventlistener.listener.EventListener;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;

@@ -13,10 +13,10 @@ public class FunctionCommand<T> extends Command<T> {
     /**
      * The {@link Function} to be executed
      */
-    final Function<T, T> function;
+    protected final Function<T, T> function;
 
     /**
-     * Constructor for {@link FunctionCommand}
+     * Constructor to create a new FunctionCommand
      *
      * @param function The {@link Function} to be executed
      * @param receiver The Receiver to be executed on

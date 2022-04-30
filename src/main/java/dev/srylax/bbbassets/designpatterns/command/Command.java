@@ -10,7 +10,7 @@ import lombok.Data;
  */
 @Data
 public abstract class Command<T> {
-    final T receiver;
+    protected final T receiver;
 
     /**
      * Executes the command.

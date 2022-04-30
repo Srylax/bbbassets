@@ -1,6 +1,4 @@
-package dev.srylax.bbbassets.designpatterns.eventlistener.listener;
-
-import dev.srylax.bbbassets.designpatterns.eventlistener.event.Event;
+package dev.srylax.bbbassets.designpatterns.eventlistener;
 
 /**
  * Interface for an Event-Listener.
