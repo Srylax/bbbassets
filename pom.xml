@@ -6,7 +6,7 @@
 
     <groupId>dev.srylax</groupId>
     <artifactId>bbbassets</artifactId>
-    <version>0.0.1</version>
+    <version>0.2.0</version>
     <name>BBBaden Assets</name>
     <description>Utils, Design Patterns and more for the BBBaden</description>
     <url>https://github.com/Srylax/bbbassets/</url>
