@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>bbbassets</artifactId>
+        <groupId>dev.srylax</groupId>
+        <version>0.3.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dev.srylax.bbbassets</groupId>
+    <artifactId>designpatterns</artifactId>
+    <version>0.2.0</version>
+
+    <name>BBBaden Assets Design Patterns</name>
+    <description>Design Patterns for the BBBaden</description>
+    <url>https://github.com/Srylax/bbbassets/</url>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+
+    <scm>
+        <connection>scm:git:git@github.com:Srylax/bbbassets.git</connection>
+        <developerConnection>scm:git:ssh://github.com:Srylax/bbbassets.git</developerConnection>
+        <url>https://github.com/Srylax/bbbassets/tree/master/designpatterns</url>
+    </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>4.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
