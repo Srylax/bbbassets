@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dev.srylax.bbbassets</groupId>
-    <artifactId>swing</artifactId>
+    <artifactId>input</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
