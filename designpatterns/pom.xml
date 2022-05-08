@@ -5,13 +5,13 @@
     <parent>
         <artifactId>bbbassets</artifactId>
         <groupId>dev.srylax</groupId>
-        <version>0.3.0</version>
+        <version>0.3.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dev.srylax.bbbassets</groupId>
     <artifactId>designpatterns</artifactId>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
 
     <name>BBBaden Assets Design Patterns</name>
     <description>Design Patterns for the BBBaden</description>
